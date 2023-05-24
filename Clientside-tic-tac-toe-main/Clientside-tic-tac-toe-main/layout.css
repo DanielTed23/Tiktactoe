@@ -1,0 +1,58 @@
+
+.wrapper {
+    /* border: 2px solid red; */
+    min-height: 100px;
+
+    min-width: 275px;
+    max-width: 550px;
+    /* margin: auto; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    aspect-ratio: 1/1;
+    grid-gap: 4px;
+}
+
+.gameboard button {
+    font-size: 4em;
+    background-color: aqua;
+    color: #fff;
+    border: none;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.controls button {
+    width: 100px;
+    
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.points{
+    font-size: 20px;
+}
+
+.Tik{
+    margin-left: 87px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
